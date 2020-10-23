@@ -1,0 +1,2 @@
+(()=>{var e={127:e=>{"use strict";e.exports=require("express")}},r={};function s(o){if(r[o])return r[o].exports;var n=r[o]={exports:{}};return e[o](n,n.exports,s),n.exports}(()=>{const e=s(127),r=e();r.use(e.json()).use(e.urlencoded({extended:!0})),r.get("/",((e,r)=>{r.send("hello world")})),r.listen(8e3,(()=>console.log("server is running on port 8000")))})()})();
+//# sourceMappingURL=server.js.map
